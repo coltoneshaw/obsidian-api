@@ -3696,7 +3696,7 @@ export class Workspace extends Events {
      * Triggered when the user opens the context menu on a file.
      * @public
      */
-    on(name: 'file-menu', callback: (menu: Menu, file: TAbstractFile, source: string, leaf?: WorkspaceLeaf) => any, ctx?: any): EventRef;
+    on(name: 'file-menu', callback: (menu: Menu, file: TFile, source: string, leaf?: WorkspaceLeaf) => any, ctx?: any): EventRef;
     
     /**
      * Triggered when the user opens the context menu on an editor.
